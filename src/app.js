@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const jsx = <p>aaaaaaaaaaa</p>;
+import PasswordApp from './components/PasswordApp'
 
-ReactDOM.render(jsx, document.getElementById('app'));
+ReactDOM.render(<PasswordApp />, document.getElementById('app'));
 
 
 
